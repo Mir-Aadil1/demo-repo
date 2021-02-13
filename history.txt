@@ -1,0 +1,433 @@
+    1  systemctl status vncserver@:1
+    2  ps aux | grep vnc
+    3  cat .vnc/9e87adfe171c.mylabserver.com\:1.log 
+    4  sudo systemctl stop vncserver@:1
+    5  vi .vnc/config 
+    6  sudo systemctl start vncserver@:1
+    7  systemctl status vncserver@:1
+    8  sudo systemctl stop vncserver@:1
+    9  vi .vnc/config 
+   10  sudo systemctl start vncserver@:1
+   11  sudo -i
+   12  export PS1="$"
+   13  pwd
+   14  ls
+   15  mkdir GIT
+   16  cd GIT/
+   17  mkdir Projects
+   18  cd Projects/
+   19  ll
+   20  git init hi-there
+   21  ls 
+   22  ls -a hi-there/
+   23  ls -a hi-there/.git/
+   24  ll
+   25  ..
+   26  pwd
+   27  mkdir test
+   28  git init test/
+   29  ls -a test/
+   30  ll
+   31  git init --bare big-project.git
+   32  ls -a big-project.git/
+   33  ls -a test/
+   34  ll
+   35  rm -rf big-project.git/
+   36  pwd
+   37  git config --global user.name "Aadil Mir"
+   38  git config --global user.email "ermiraadil@gmail.com"
+   39  git config --list
+   40  which vim
+   41  wich vim
+   42  yum insta;; vim
+   43  sudo yum install yum 
+   44  which vim
+   45  vim aadil
+   46  pwd
+   47  touch aadil
+   48  vim aadil 
+   49  sudo yum install yum 
+   50  sudo yum install vim
+   51  which vim
+   52  rm aadil 
+   53  git config --global core.editor "/usr/bin/vim"
+   54  git config --list
+   55  cat ~/.gitconfig 
+   56  mkdir fake
+   57  git config user.email "abc@abc.com"
+   58  git intit fake/
+   59  git init fake/
+   60  cd fake/
+   61  git config user.email "abc@abc.com"
+   62  cd ~
+   63  pwd
+   64  cat ~/.gitconfig 
+   65  git config --list
+   66  cd GIT/Projects/fake/
+   67  git config --list
+   68  git config user.email
+   69  ..
+   70  git config user.email
+   71  pwd
+   72  ..
+   73  pwd
+   74  cd ..
+   75  pwd
+   76  git config user.email
+   77  cd hi-there/
+   78  touch README.md
+   79  ll
+   80  pwd
+   81  git add README.md 
+   82  cat .git/index 
+   83  PuTTYPuTTY
+   84  cat README.md 
+   85  cat .git/index 
+   86  PuTTYPuTTY
+   87  git status
+   88  pwd
+   89  mkdir src
+   90  git add src/
+   91  git status
+   92  pqs
+   93  pqwd
+   94  pwd
+   95  ll
+   96  cd GIT/
+   97  LL
+   98  ll
+   99  cd Projects/
+  100  ll
+  101  cd hi-there/
+  102  ll
+  103  ls -la
+  104  cd .git/
+  105  ll
+  106  ..
+  107  cd ..
+  108  ll
+  109  echo "## Hi##
+  110  "
+  111  echo "## Hi##" README.md 
+  112  cat README.md 
+  113  echo "## Hi##" >> README.md 
+  114  cat README.md 
+  115  git add 
+  116  ..
+  117  cd ..
+  118  ll
+  119  git init repo]
+  120  ls -a repo]/
+  121  ls -a repo
+  122  ls -a repo]/
+  123  rm -rf repo]/
+  124  git init repo
+  125  ls -a repo/
+  126  mkdir testnew
+  127  git init testnew/
+  128  ls -a testnew/
+  129  git init --bare big-project.git
+  130  ls -a big-project.git/
+  131  git config list
+  132  git config --list
+  133  cd repo/
+  134  touch README.md
+  135  git add README.md 
+  136  GIT STATUS
+  137  git status
+  138  cat README.md 
+  139  cat .git/in
+  140  cat .git/index 
+  141  git status
+  142  mkdir src
+  143  git add src
+  144  git status
+  145  vim hi-there.cpp
+  146  mv hi-there.cpp src/
+  147  git add src/hi-there.cpp 
+  148  git status
+  149  clear
+  150  touch src/.keep
+  151  git add src/.keep 
+  152  git status
+  153  git rm src/.keep 
+  154  git rm -f src/.keep 
+  155  ls -a src/
+  156  touch LICENSE
+  157  git statu
+  158  git status
+  159  git status -s
+  160  git add LICENSE 
+  161  git status -s
+  162  echo "This is our license file " > LICENSE 
+  163  git status
+  164  git status -s
+  165  git add LICENSE 
+  166  git status -s
+  167  git status 
+  168  cat LICENSE 
+  169  git status -v
+  170  ll
+  171  git commit 
+  172  git status
+  173  cat .git/COMMIT_EDITMSG 
+  174  git log
+  175  ls .git/objects/dc/
+  176  echo "our Changelog file" >> CHANGELOG.md
+  177  git add CHANGELOG.md 
+  178  git status 0s
+  179  git status -s
+  180  git status
+  181  git commit -m "Adding the changelog file"
+  182  ls
+  183  git rm --cached CHANGELOG.md 
+  184  ls
+  185  git status
+  186  git status -s
+  187  git commit
+  188  ls
+  189  git status
+  190  git add CHANGELOG.md 
+  191  echo "Put notes here" >> CHANGELOG.md 
+  192  git commit -a -m "bringing the changelog baqck"
+  193  git status
+  194  cat .git/info/exclude 
+  195  mkdir build
+  196  touch .gitignore
+  197  git add .gitignore
+  198  git status
+  199  git commit -m "addding a gitignore file" 
+  200  echo "build/*" >> .gitignore 
+  201  git commit -a -m "updated our gitignore file to exclusde build directory"
+  202  git status
+  203  cat gitignore
+  204  cat .gitignore 
+  205  vim CHANGELOG.md 
+  206  ls 
+  207  git status
+  208  echo *~ >> .gitignore
+  209  git status
+  210  git commit -a -m "updated changelog and ignoring vim backup"
+  211  git staus
+  212  git status
+  213  git status -s
+  214  clear
+  215  git check-ignore
+  216  git check-ignore *~
+  217  ..
+  218  cd ..
+  219  ll
+  220  cd fake/
+  221  ll
+  222  ls -al
+  223  cd .git
+  224  ls -la 
+  225  cd ..
+  226  ls -la 
+  227  cd .git
+  228  cd 
+  229  ls -la 
+  230  cat .gitconfig 
+  231  cd GIT/Projects/
+  232  ll
+  233  cd repo/
+  234  ls
+  235  cd build/
+  236  ls 
+  237  cd build
+  238  ls -la 
+  239  cd ..
+  240  ls -la 
+  241  git scan 
+  242  git check-sum
+  243  git scan *.md
+  244  ll
+  245  cd GIT/
+  246  ll
+  247  cd Projects/
+  248  ll
+  249  cd hi-there/
+  250  ll
+  251  git tag -a v0.1
+  252  git tag -a v0.1 -m "first"
+  253  ..
+  254  cd ..
+  255  cd repo/
+  256  ll
+  257  git show
+  258  git show v0.1
+  259  git tag
+  260   
+  261  git status
+  262  git branch accounting
+  263  git status
+  264  git log
+  265  git --online
+  266  git --oneline
+  267  git log --online
+  268  git log --oneline
+  269  git checkout accounting
+  270  git status
+  271  echo "Features Second" >> CHANGELOG.md
+  272  git commit -a -m "adding second fetures"
+  273  vim CHANGELOG.md
+  274  git commit -a -m "adding second fetures formatting"
+  275  git checkout master
+  276  cat CHANGELOG.md
+  277  git checkout accounting
+  278  cat CHANGELOG.md
+  279  git log
+  280  cat .git/HEAD 
+  281  git checkouit master
+  282  git checkout master
+  283  cat .git/HEAD 
+  284  cat .git/refs/heads/maste
+  285  cat .git/refs/heads/master
+  286  cat .git/HEAD 
+  287  git status
+  288  git merge accounting
+  289  cat CHANGELOG.md
+  290  git branch t1
+  291  git branch t2
+  292  git checkout t1
+  293  echo aadil >> aadil.txt
+  294  git add aadil.txt 
+  295  git commit -m "new file"
+  296  git checkout t2
+  297  echo "Mir" >> aadil.txt
+  298  git add aadil.txt 
+  299  git commit -m "Mir" aadil.txt 
+  300  git checkout t1
+  301  git merge t2
+  302  gti status
+  303  git status 
+  304  vim aadil.txt 
+  305  git status 
+  306  git merge t2
+  307  vim aadil.txt 
+  308  git add aadil.txt 
+  309  git status
+  310  git merge t2
+  311  git commit -m "combined two works from t1 and t2" aadil.txt 
+  312  git add aadil.txt 
+  313  git commit -m "combined two works from t1 and t2" aadil.txt 
+  314  git status
+  315  git commit -m "combined two works from t1 and t2" aadil.txt 
+  316  git status
+  317  git checkout 
+  318  git checkout master
+  319  git add aadil.txt 
+  320  git commit -m "combined two works from t1 and t2" aadil.txt 
+  321  git status
+  322  git checkout master
+  323  ls
+  324  git merge t1
+  325  ls
+  326  cat aadil.txt 
+  327  git branch -d t1
+  328  git branch -d t2
+  329  ls
+  330  ll
+  331  ls -la 
+  332  git checkout development
+  333  cat README.md 
+  334  vim README.md 
+  335  cat README.md 
+  336  echo README.md 
+  337  echo `cat README.md `
+  338  git status
+  339  git add README.md 
+  340  git commit -a -m "updated README"
+  341  \\\\
+  342  gti checkout master 
+  343  git checkout master 
+  344  git rebase development
+  345  ll
+  346  rm info.txt 
+  347  git rebase development
+  348  git rebase development --continuie
+  349  git rebase development --continue
+  350  ll
+  351  cat README.md 
+  352  ll
+  353  ifconfig 
+  354  ll
+  355  cd GIT/
+  356  cd Projects/
+  357  ll
+  358  cd repo/
+  359  ll
+  360  echo "skjdjhsklfdjhskljdsa" >> README.md 
+  361  git commit -a -m "updatred readme "
+  362  git status
+  363  git revert HEAD
+  364  cat README.md 
+  365  git log
+  366  git log --oneline
+  367  git revert HEAD~2
+  368  git log --oneline
+  369  git diff
+  370  ll
+  371  echo "show me git diff" >> CHANGELOG.md
+  372  git diff
+  373  git diff HEAD
+  374  ll
+  375  cd..
+  376  cd ..
+  377  ll
+  378  cd demo-repo
+  379  git --version
+  380  git clone git@github.com:Mir-Aadil1/demo-repo.git
+  381  ll
+  382  git clone git@github.com:Mir-Aadil1/demo-repo.git
+  383  gh repo clone Mir-Aadil1/demo-repo
+  384  ssh-keygen -t rsa -b 4096 -C 
+  385  ssh-keygen -t rsa -b 4096 -C "ermiraadil@gmail.com"
+  386  cd /home/cloud_user/.ssh/id_rsa
+  387  cd /home/cloud_user/.ssh/
+  388  ll
+  389  cd
+  390  ls 
+  391  ls -la 
+  392  find / -iname "mir.pub"
+  393  cd /home/cloud_user/GIT/Projects/
+  394  ll
+  395  cat mir.pub
+  396  cat mir.pub.pub 
+  397  ll
+  398  rm mir.pub8
+  399  rm mir.pub*
+  400  ll
+  401  ssh-keygen -t rsa -b 4096 -C "ermiraadil@gmail.com"
+  402  ll
+  403  eval "$(ssh-agent -s)"
+  404  ssh-add -K /home/cloud_user/.ssh/id_rsa
+  405  ssh-add -k /home/cloud_user/.ssh/id_rsa
+  406  ssh-add -k /home/cloud_user/.ssh/authorized_keys 
+  407  ssh-add -k mir
+  408  ll
+  409  cat mir.pub 
+  410  git clone git@github.com:Mir-Aadil1/demo-repo.git
+  411  ll
+  412  cd demo-repo/
+  413  ll
+  414  ls
+  415  ls -la 
+  416  ls 
+  417  cat README.md 
+  418  vim README.md 
+  419  vim index.html
+  420  cat index.html 
+  421  git status
+  422  git add .
+  423  git status
+  424  git commit -m " Added index.html" -m "some descripotion"
+  425  git staus
+  426  git status
+  427  git pusj
+  428  git push
+  429  ll
+  430  ls 
+  431  history 
+  432  history  >. history.txt
+  433  history  >> history.txt
